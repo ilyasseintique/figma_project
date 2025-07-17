@@ -1,1 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f7f6;
+    color: #222;
+}
 
+.header {
+    background: #2e7d32;
+    color: #fff;
+    padding: 1rem 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #a5d6a7;
+}
+
+.main-content {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+.product-hero {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(46,125,50,0.08);
+    overflow: hidden;
+}
+.product-image {
+    flex: 1 1 320px;
+    min-width: 320px;
+    background: #e8f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.product-image img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(46,125,50,0.10);
+}
+.product-details {
+    flex: 2 1 400px;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-details h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #2e7d32;
+}
+.product-description {
+    font-size: 1.1rem;
+    margin: 1rem 0 2rem 0;
+    color: #444;
+}
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #388e3c;
+    margin-bottom: 1.5rem;
+}
+.add-to-cart {
+    background: #43a047;
+    color: #fff;
+    border: none;
+    padding: 0.9rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(46,125,50,0.10);
+}
+.add-to-cart:hover {
+    background: #2e7d32;
+}
+
+.footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem 0;
+    margin-top: 3rem;
+}
+.footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+@media (max-width: 800px) {
+    .main-content, .header .container, .footer .container {
+        padding: 0 1rem;
+    }
+    .product-hero {
+        flex-direction: column;
+    }
+    .product-image, .product-details {
+        padding: 1.2rem;
+    }
+    .product-details {
+        align-items: center;
+        text-align: center;
+    }
+}
