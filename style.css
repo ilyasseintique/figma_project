@@ -1,0 +1,141 @@
+
+*{
+    margin: 0px;
+}
+header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 25px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+#parent_cont{
+    margin-left:100px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    gap: 30vw;
+}
+.cont1{
+    width: 25vw;
+}
+#sec2{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 40vh;
+    padding-left:  50px;
+}
+#sec3{
+    margin-top:100px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 40vh;
+    padding-left:  50px;
+}
+#sec4{
+    margin-top:100px;
+    display:flex;   
+    align-items:center;
+    justify-content: center;
+    gap: 20vw;
+    background-color: darkblue;
+    height: 40vh;
+    padding-left:  50px;
+    padding-right:  50px;
+    text-align: center;
+
+}
+.h{
+    width: 20vw;
+    color: white;
+}
+#sec5{
+    margin-top:100px;
+    display:flex;   
+    align-items:center;
+    justify-content: space-between;
+    gap: 20vw;
+    background-color: whitesmoke;
+    height: 45vh;
+    padding-left:  50px;
+    padding-right:  50px;
+
+}
+.childsec15{
+    text-align: start;
+}
+.childsec25{
+    text-align: end;
+}
+.sec6{
+    margin-top:100px;
+    display:flex;   
+    align-items:center;
+    justify-content: center;
+    gap: 20vw;
+    background-color: whitesmoke;
+    height: 45vh;
+    /* width: 100vw; */
+    padding-left:  50px;
+    padding-right:  50px;   
+}
+.airpodsdesc{
+    margin-right:20vw;
+    text-align: center;
+}
+.sec7{
+    margin-top:50px;
+    display:flex;   
+    align-items:center;
+    justify-content: center;
+    gap: 20vw;
+    background-color: whitesmoke;
+    height: 45vh;
+    /* width: 100vw; */
+    padding-left:  50px;
+    padding-right:  50px;
+    margin-bottom: 40px;
+}
+.asus{
+    width:40vw;
+    margin-right:20vw;
+    text-align: center;
+}
+hr {
+    border: 1px solid black;
+    width: 80vw;
+    margin-left: 50vw;
+    translate: -50% ;
+}
+footer{
+    height: 40vh;
+    margin-top: 40px;
+    background-color: darkblue  ;
+}
+.tot{
+    height: 35vh;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 60vw;
+}
+.fot1{
+    text-align: start;
+    width:20vw;
+    color:white;
+}
+h2{
+    margin-bottom: 10px;
+}
+@media screen and (max-width:800px) {
+    header,.parent_cont,.cont1,.sec2,.sec4,.sec3,.sec5,.childsec15{
+        width: 100%;
+    }
+
+}
