@@ -28,6 +28,7 @@ header{
     background-color: whitesmoke;
     height: 40vh;
     padding-left:  50px;
+    text-align: center;
 }
 #sec3{
     margin-top:100px;
@@ -135,7 +136,7 @@ h2{
 }
 @media screen and (max-width:800px) {
     header,.parent_cont,.cont1,.sec2,.sec4,.sec3,.sec5,.childsec15{
-        width: 100%;
-    }
-
+        flex-direction: column;
+        
+}
 }
